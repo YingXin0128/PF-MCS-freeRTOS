@@ -8,7 +8,7 @@ Pressure & Flow Monitoring and Control System
 ![RTOS](https://img.shields.io/badge/FreeRTOS-10.3.1-75A914)
 ![Toolchain](https://img.shields.io/badge/Keil-ARM_Compiler_5-0091BD)
 ![Target](https://img.shields.io/badge/Target-CT117E--M4-555555)
-[![Source and algorithm checks](https://github.com/guanpeilin2026-art/PF-MCS-freeRTOS/actions/workflows/source-check.yml/badge.svg?branch=main)](https://github.com/guanpeilin2026-art/PF-MCS-freeRTOS/actions/workflows/source-check.yml)
+[![Source and algorithm checks](https://github.com/YingXin0128/PF-MCS-freeRTOS/actions/workflows/source-check.yml/badge.svg?branch=main)](https://github.com/YingXin0128/PF-MCS-freeRTOS/actions/workflows/source-check.yml)
 
 面向 CT117E-M4 开发板的嵌入式项目：通过 ADC 采集压力模拟电压，通过定时器统计流量脉冲，使用 PWM 输出控制量，并通过 LCD、按键和 LED 完成人机交互与异常提示。应用以六个 FreeRTOS 任务组织，覆盖采集、控制、按键、界面、告警和显示。
 
