@@ -1,0 +1,9 @@
+{
+  "groups": 6,
+  "assertions": 77,
+  "passed": true,
+  "source": "Src/app.c",
+  "execution": "host C with temporary test stubs",
+  "hardware_measured": false,
+  "source_sha256": "5d5af8bdb1a4ee4d760f368e343803a98bf7314880083ef31e01ff9f738f7aaa"
+}

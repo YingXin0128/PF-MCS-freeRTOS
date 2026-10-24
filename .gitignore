@@ -1,0 +1,53 @@
+# Native build outputs and local logs
+/build/
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.lst
+*.lnp
+*.map
+*.sct
+*.axf
+*.elf
+*.hex
+*.bin
+*.htm
+*.html
+*.log
+*.iex
+*.__i
+
+# Keil user sessions, pack-generated state and debug cache
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.scvd
+/MDK-ARM/DebugConfig/
+/MDK-ARM/RTE/
+/MDK-ARM/EventRecorderStub.scvd
+
+# Editor and OS caches
+.vs/
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+*.bak
+*.tmp
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local archives and credentials
+*.zip
+*.7z
+.env
+.env.*
+!.env.example
+*.pem
+*.key

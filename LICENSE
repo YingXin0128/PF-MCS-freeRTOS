@@ -1,0 +1,15 @@
+Project licensing scope
+=======================
+
+The original application-specific code in this repository is supplied for
+source publication. No additional open-source license is granted for that code
+by this notice. Rights remain with the respective copyright holders. An owner
+may add an explicit license for their own work in a subsequent revision.
+
+Third-party components retain their original licenses and copyright notices.
+This notice does not replace or restrict permissions granted by those licenses.
+See THIRD_PARTY_NOTICES.md and LICENSES/ for component-specific information.
+
+The CT117E LCD example and font files do not contain a separately identified
+redistribution license in the supplied source materials. Their original notices
+are retained; no broader rights are asserted by this repository.

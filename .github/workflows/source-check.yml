@@ -1,0 +1,22 @@
+name: Source and algorithm checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify hardware project and repository
+        run: python tools/verify_repository.py
+      - name: Run actual application C algorithms on host
+        run: python tools/test_algorithms.py --cc cc
